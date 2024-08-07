@@ -116,9 +116,9 @@ const eCommerceOptions: OptionItem[] = [
 	{
 		company: "clover",
 		logo: "/images/solutions/companies/clover.png",
-		hardwareDesktop: "/images/solutions/desktop/retail-clover.png",
+		hardwareDesktop: "/images/solutions/desktop/ecommerce-clover.png",
 		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
-		software: "/images/solutions/software/retail-clover.png",
+		software: "",
 	},
 ];
 
