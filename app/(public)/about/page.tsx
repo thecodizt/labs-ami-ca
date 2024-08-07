@@ -73,7 +73,7 @@ const AboutPage = () => {
 										className="object-contain animate-pulse-scale"
 									/>
 								</motion.li>
-								<motion.li
+								{/* <motion.li
 									variants={item}
 									className="absolute bottom-[100px] left-[-70px]"
 								>
@@ -108,7 +108,7 @@ const AboutPage = () => {
 										height={170}
 										className="object-contain animate-pulse-scale"
 									/>
-								</motion.li>
+								</motion.li> */}
 							</motion.ul>
 						</div>
 					</div>
@@ -346,7 +346,7 @@ const AboutPage = () => {
 										className="object-contain"
 									/>
 								</motion.li>
-								<motion.li
+								{/* <motion.li
 									variants={item}
 									className="absolute bottom-[50px] left-[30px]"
 								>
@@ -381,7 +381,7 @@ const AboutPage = () => {
 										height={20}
 										className="object-contain animate-pulse-scale"
 									/>
-								</motion.li>
+								</motion.li> */}
 							</motion.ul>
 						</MoveUpFadeInSection>
 						<div>
