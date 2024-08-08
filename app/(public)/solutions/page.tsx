@@ -15,10 +15,6 @@ interface OptionItem {
 	software: string;
 }
 
-type OptionsType = {
-	[key: string]: OptionItem[];
-};
-
 const retailOptions: OptionItem[] = [
 	{
 		company: "clover",
@@ -31,28 +27,28 @@ const retailOptions: OptionItem[] = [
 		company: "pax",
 		logo: "/images/solutions/companies/pax.png",
 		hardwareDesktop: "/images/solutions/desktop/retail-pax.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/retail-pax.png",
 		software: "",
 	},
 	{
 		company: "dejavoo",
 		logo: "/images/solutions/companies/dejavoo.png",
 		hardwareDesktop: "/images/solutions/desktop/retail-dejavoo.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/retail-dejavoo.png",
 		software: "",
 	},
 	{
 		company: "ingenico",
 		logo: "/images/solutions/companies/ingenico.png",
 		hardwareDesktop: "/images/solutions/desktop/retail-ingenico.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/retail-ingenico.png",
 		software: "",
 	},
 	{
 		company: "valor",
 		logo: "/images/solutions/companies/valor.png",
 		hardwareDesktop: "/images/solutions/desktop/retail-valor.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/retail-valor.png",
 		software: "",
 	},
 ];
@@ -62,42 +58,42 @@ const restaurantOptions: OptionItem[] = [
 		company: "clover",
 		logo: "/images/solutions/companies/clover.png",
 		hardwareDesktop: "/images/solutions/desktop/restaurant-clover.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/restaurant-clover.png",
 		software: "/images/solutions/software/clover.png",
 	},
 	{
 		company: "pax",
 		logo: "/images/solutions/companies/pax.png",
 		hardwareDesktop: "/images/solutions/desktop/restaurant-pax.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/restaurant-pax.png",
 		software: "",
 	},
 	{
 		company: "dejavoo",
 		logo: "/images/solutions/companies/dejavoo.png",
 		hardwareDesktop: "/images/solutions/desktop/restaurant-dejavoo.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/restaurant-dejavoo.png",
 		software: "",
 	},
 	{
 		company: "valor",
 		logo: "/images/solutions/companies/valor.png",
 		hardwareDesktop: "/images/solutions/desktop/restaurant-valor.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/restaurant-valor.png",
 		software: "",
 	},
 	{
 		company: "talech",
 		logo: "/images/solutions/companies/talech.png",
 		hardwareDesktop: "/images/solutions/desktop/restaurant-talech.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/restaurant-talech.png",
 		software: "",
 	},
 	{
 		company: "ingenico",
 		logo: "/images/solutions/companies/ingenico.png",
 		hardwareDesktop: "/images/solutions/desktop/restaurant-ingenico.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/restaurant-ingenico.png",
 		software: "",
 	},
 ];
@@ -107,7 +103,7 @@ const b2bOptions: OptionItem[] = [
 		company: "clover",
 		logo: "/images/solutions/companies/clover.png",
 		hardwareDesktop: "/images/solutions/desktop/b2b-clover.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/b2b-clover.png",
 		software: "",
 	},
 ];
@@ -117,7 +113,7 @@ const eCommerceOptions: OptionItem[] = [
 		company: "clover",
 		logo: "/images/solutions/companies/clover.png",
 		hardwareDesktop: "/images/solutions/desktop/ecommerce-clover.png",
-		hardwareMobile: "/images/solutions/mobile/retail-clover.png",
+		hardwareMobile: "/images/solutions/mobile/ecommerce-clover.png",
 		software: "",
 	},
 ];

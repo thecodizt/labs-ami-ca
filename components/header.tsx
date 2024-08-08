@@ -5,8 +5,7 @@ import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 import { ChevronDownIcon, MenuIcon } from "lucide-react";
 import { Drawer, DrawerContent, DrawerTrigger } from "./ui/drawer";
-import Link from "next/link";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Avatar, AvatarImage } from "./ui/avatar";
 import { DropdownMenu } from "@radix-ui/react-dropdown-menu";
 import {
 	DropdownMenuContent,
@@ -112,7 +111,7 @@ const Header = ({
 						/>
 					</div>
 
-					<div className="hidden lg:flex items-center justify-between gap-[100px]">
+					<div className="hidden lg:flex items-center justify-between gap-[100px] px-[100px]">
 						<Button
 							variant="ghost"
 							onClick={() => router.push("/about")}
@@ -139,7 +138,7 @@ const Header = ({
 							Solutions
 						</Button>
 
-						<div className="flex gap-4 items-center">
+						{/* <div className="flex gap-4 items-center">
 							{isSelectedCountry && (
 								<>
 									<div className="bg-gradient-to-r from-GOLD to-BLUE rounded-full p-[2px] hover:shadow-sm">
@@ -191,7 +190,7 @@ const Header = ({
 									))}
 								</DropdownMenuContent>
 							</DropdownMenu>
-						</div>
+						</div> */}
 					</div>
 
 					<div className="block lg:hidden">
@@ -246,29 +245,13 @@ const Header = ({
 											Solutions
 										</Button>
 									</motion.li>
-									<motion.li
+									{/* <motion.li
 										className="text-sm w-full text-center py-4"
 										variants={item}
 									>
 										Choose a country
 									</motion.li>
-									<motion.li className="item" variants={item}>
-										<div className="flex items-center gap-2 p-4 border-b mb-2">
-											<Avatar>
-												<AvatarImage
-													src={selectedCountry.image}
-													alt={selectedCountry.name}
-												/>
-											</Avatar>
-											<span>{selectedCountry.name}</span>
-										</div>
-									</motion.li>
 									{countries
-										.filter(
-											(country) =>
-												country.name !==
-												selectedCountry.name
-										)
 										.map((country, index) => (
 											<motion.li
 												key={index}
@@ -297,7 +280,7 @@ const Header = ({
 													<span>{country.name}</span>
 												</div>
 											</motion.li>
-										))}
+										))} */}
 								</motion.ul>
 							</DrawerContent>
 						</Drawer>

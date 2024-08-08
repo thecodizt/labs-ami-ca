@@ -215,10 +215,11 @@ const AboutPage = () => {
 											Seamless <br /> Experience
 										</div>
 										<div>
-											At AMI, we take pride in delivering
-											superior customer service, ensuring
-											that our clients receive the highest
-											level of support and satisfaction.
+											We are committed to making your
+											experience with our services
+											seamless and satisfying, addressing
+											all your needs efficiently and
+											effectively.
 										</div>
 									</div>
 								</div>
