@@ -3,6 +3,7 @@
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Button } from "@/components/ui/button";
+import { MoveUpFadeInSection } from "@/components/ui/move-up-fade-in-section";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -160,9 +161,9 @@ const SolutionsPage = () => {
 			<div className="flex flex-col w-full p-2 gap-2 bg-gradient-to-b from-VIOLET via-GOLD to-white">
 				<Header active={"solutions"} />
 				<div className="flex flex-col gap-8 h-full w-full items-center justify-center rounded-lg bg-white text-slate-700 shadow-sm p-8">
-					<span className="text-4xl font-medium font-[Sora] text-center">
+					<MoveUpFadeInSection className="text-4xl font-medium font-[Sora] text-center">
 						Our Wide Range of Business Solutions
-					</span>
+					</MoveUpFadeInSection>
 					<div className="bg-gradient-to-r from-white via-slate-500 to-white min-h-[1px] w-[60%] px-8" />
 
 					<div className="p-1 rounded-full flex gap-1 bg-slate-100">
